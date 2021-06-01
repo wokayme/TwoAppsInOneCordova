@@ -11,3 +11,6 @@ cp -R ./out ../cordova/www/next-app
 
 cd ../
 node replacePaths.js
+
+cd cordova
+npm run dev:ios
